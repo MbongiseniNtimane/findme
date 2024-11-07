@@ -1,0 +1,47 @@
+name: findme
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.4.0
+  
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  share_plus: ^10.0.3
+  get: ^4.6.6
+  curved_drawer_fork: ^0.0.1+1
+  url_launcher: ^6.3.1
+  carousel_slider: ^5.0.0
+  image_picker: ^1.0.0
+  firebase_storage: ^12.3.3
+  file_picker: ^8.1.2
+  flutter_image_compress: ^2.3.0
+  intl: ^0.19.0
+  google_maps_flutter: ^2.9.0
+  geolocator: ^13.0.1
+  fl_chart: ^0.69.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/pic1.jpg
+    - assets/images/pic2.jpg
+    - assets/images/pic3.jpg
+    - assets/images/handshake.png
+    - assets/images/default_avatar.png
+    - assets/images/team_member_0.jpg
+    - assets/images/team_member_1.jpg
+    - assets/images/team_member_2.jpg
+    - assets/images/team_member_3.jpg
+
